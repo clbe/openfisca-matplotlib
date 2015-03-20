@@ -231,7 +231,7 @@ if __name__ == '__main__':
     scenario = tax_benefit_system.new_scenario().init_single_entity(
         parent1 = dict(
             birth = datetime.date(year - 40, 1, 1),
-            sali = 0,
+            salaire_de_base = 0,
             ),
         period = period,
         )
